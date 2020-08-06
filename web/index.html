@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Ejemplo Servlet</title>
+        <link rel="stylesheet" href="css.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            <h1><p class="three">Registro de Alumnos</p></h1>
+
+            <table>
+            <form action="Guardar_alumno" method="post" name="formulario" >
+                
+                
+                    <tr><td>Nombre: </td><td><input type="text" name="nombre" ></td></tr>
+                    <tr><td>Password: </td><td><input type="password" name="password" ></td></tr>
+                    <tr><td>Email: </td><td><input type="email" name="email" ></td></tr>
+                    <tr><td>Pais:</td>
+                        <table2>
+                        <td><select name="pais" style="width:150px" >
+                                <option>India</option>
+                                <option>Mexico</option>
+                                <option>Al que nadie quiere</option>
+                                <option>Por ahi</option>
+                        </select></td>
+                        </table2>
+                    </tr>
+                    <tr><center><td colspan="2" > <input type="submit" value="Guardar Registro" ></center></td></tr>
+                </table>
+            </form>
+        </div>
+        <div>
+            
+            <a href="Consultar_alumnos"><h1><p class="three">Consultar Lista de Alumnos</h1></a></p>
+
+        </div>
+    </body>
+</html>

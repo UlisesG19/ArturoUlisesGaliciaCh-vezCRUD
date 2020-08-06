@@ -1,0 +1,16 @@
+body {
+  background-color: lightblue;
+}
+
+p.three {
+  border-style: dotted;
+  border-color: blue;
+} 
+
+table, th, td {
+  border: 3px solid blue;
+}
+
+table2, th, td {
+  border: 3px solid red;
+}
